@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+        
+    <title>Quiz Project</title>
+
+	<!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+<body>
+    <div class="quiz-box" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <div id="inputContainer">
+                <input type="text" id="usernameInput" placeholder="Введи сюда" />
+            </div>
+            <div class="question-container">
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer" style="display: none;">
+                    <label for="d" id="d_text" style="display: none;">Question</label>
+                </li>
+            </ul>
+            <div id="imageRush" class="imageRush">
+            <img id="questionImage" src="images/rush.jpg" alt="Question Image" style="display: none;">
+            </div>
+            </div>
+            <div id="imageContainer" style="display: none;">
+                <img src="images/image1.jpg" alt="Image 1" class="questionImage">
+                <img src="images/image2.jpg" alt="Image 2" class="questionImage">
+                <img src="images/image3.jpg" alt="Image 3" class="questionImage">
+                <img src="images/image4.jpg" alt="Image 4" class="questionImage" style="display: none;">
+            </div>
+        </div>
+        <p id="warning">Выбери один из вариантов</p>
+        <button id="submit">Подтвердить</button>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>  
+</html>
