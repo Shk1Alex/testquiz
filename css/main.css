@@ -10,7 +10,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: url('../images/wp12206570.webp') no-repeat;
+    background: url('./images/wp12206570.webp') no-repeat;
     background-position: center;
     background-size: cover;
 }
